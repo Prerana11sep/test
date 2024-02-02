@@ -2,7 +2,7 @@ def linear_probing(no,pos):
     while(hashtable[pos]!=0):
         pos+=1
     return pos
-no_of_ele=0GG
+no_of_ele=0
 size=int(input("Enter size of table"))
 hashtable=list(0 for i in range(size))
 while 1:
